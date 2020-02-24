@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <main id="background">  
+    <h1 id="title">Quinton's Survey Form</h1>
+    <p id="description">Thank you for taking the time to help improve my performance</p>
+    <form id="survey-form">
+      <p id="text">Name</p>
+      <label id="name-label" for="name">
+        <input id="name" type="text" name="name" placeholder="Enter your name" size="67px" value="" required></input>
+      </label>
+    <p id="text">Email</p>
+    <label id="email-label" for="email">
+      <input id="email" type="text" name="email" placeholder="Please enter your email" size="67px" value="" required></input>
+    </label>
+  <p id="text">Rate my performance (optional)</p>
+  <label id="number-label" for="number">
+  <input id="number" type="text" name="rate" placeholder="1-10" min="1" max="10" size="67px" value=""></label>
+  <p id="text">What job would suits me?</p>
+    <select id="dropdown">
+      <option disabled selected value>Select a job role</option>
+      <option value="developer">Web Developer</option>
+      <option value="nurse">Nurse</option>
+      <option value="construction">Construction</option>
+      <option value="office">Office Aide</option>
+      <option value="teacher">Teacher</option>
+      <option value="boss">Boss</option>
+    </select>
+    <p id="text">What kind of practice would help me improve my skills?</p>
+    <div id="practice">
+    <label id="challenge-label" for="challenge">
+      <input id="challenge" type="radio" name="choice" checked>Challenges</input>
+  </label><br>
+  <label id="test-label" for="test">
+    <input id="test" type="radio" name="choice">Tests</input>
+  </label><br>
+  <label id="practice-label" for="practice">
+    <input id="practice" type="radio" name="choice">Practice</input
+  </label>
+    </div>
+<p id="text">Which coding sites and ways can help me?</p>
+<div id="help">
+  <label for="free">
+    <input id="free" type="checkbox" name="help" value="free">Freecodecamp</input></label><br>
+  <label for="odin">
+    <input id="odin" type="checkbox" name="help" value="odin">Theodinproject</input></label><br>
+  <label for="boot">
+    <input id="boot" type="checkbox" name="help" value="camps">Boot camps</input></label><br>
+  <label for="classes">
+    <input id="classes" type="checkbox" name="help" value="classes">Classes</input></label><br>
+  <label for="seminars">
+    <input id="seminars" type="checkbox" name="help" value="seminars">Seminars</input></label><br>
+  <label for="friends">
+    <input id="friends" type="checkbox" name="help" value="friends">Friends</input></label>
+</div>
+<p id="text">Please leave any comments or suggestions below</p>
+<textarea id="comments" name="comment" placeholder="Enter comments here..."></textarea><br>
+<button type="submit" id="submit">Submit</button>
+</form>
+  </main>
+</html>

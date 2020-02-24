@@ -1,0 +1,57 @@
+#title {
+    text-align: center;
+}
+#description {
+  text-align: center;
+  font-size: 19px;
+}
+#background {
+  background: rgba(170, 80, 80, 1);
+  color: white;
+}
+#survey-form {
+  background: rgba(170, 101, 80, 0.79);
+  display: block;
+  margin: 30px;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+}
+#name-label {
+  border: 2.5px solid black;
+  border-radius: 3px;
+}
+#email-label {
+  border: 2.5px solid black;
+  border-radius: 3px;
+}
+#number-label {
+  border: 2.5px solid black;
+  border-radius: 3px;
+}
+#dropdown {
+  
+}
+#practice {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+#help {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+#comments {
+  width: 545px;
+  height: auto;
+}
+#submit {
+  display: block;
+  width: 100%;
+  border-radius: 25px;
+  padding: 0.5rem;
+  background: #9faa50;
+}
+#text {
+  font-family: arial black;
+  font-size: 16px;
+}
